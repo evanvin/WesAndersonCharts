@@ -1,25 +1,37 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-    <ul v-for="actor in actors" :key="actor[0]">
-      <li>
-        {{ actor[0] }}
-        <ol>
-          <li v-for="role in actor[1]" :key="role['role']">
-            {{ role['role'] }}
-          </li>
-        </ol>
-      </li>
-    </ul>
+  <div class="rolegraphic">
+    <div class="actor" v-for="actor in actors" :key="actor[0]">
+      <!-- {{ actor[0] }} -->
+      <div class="item" v-for="role in actor[1]" :key="role['role']">
+        <!-- {{ role['role'] }} -->
+      </div>
+    </div>
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
+  .rolegraphic {
+    /* min-height: 100vh; */
     display: flex;
+    flex-direction: row;
     align-items: center;
+  }
+
+  .rolegraphic > .actor {
+    margin: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+
+  .rolegraphic > .actor > .item {
+    width: 24px;
+    height: 12px;
+    background-color: blue;
+    margin: 1.5px 1.5px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 </style>

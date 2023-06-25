@@ -1,0 +1,48 @@
+{
+  "movies": {
+    "1": {
+      "name": "Bottle Rocket",
+      "year": 1996
+    },
+    "2": {
+      "name": "Rushmore",
+      "year": 1998
+    },
+    "3": {
+      "name": "The Royal Tenenbaums",
+      "year": 2001
+    },
+    "4": {
+      "name": "The Life Aquatic with Steve Zissou",
+      "year": 2004
+    },
+    "5": {
+      "name": "The Darjeeling Limited",
+      "year": 2007
+    },
+    "6": {
+      "name": "Fantastic Mr. Fox",
+      "year": 2009
+    },
+    "7": {
+      "name": "Moonrise Kingdom",
+      "year": 2012
+    },
+    "8": {
+      "name": "The Grand Budapest Hotel",
+      "year": 2014
+    },
+    "9": {
+      "name": "Isle of Dogs",
+      "year": 2018
+    },
+    "10": {
+      "name": "The French Dispatch",
+      "year": 2021
+    },
+    "11": {
+      "name": "Asteroid City",
+      "year": 2023
+    }
+  }
+}

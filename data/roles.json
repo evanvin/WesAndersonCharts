@@ -1,0 +1,283 @@
+{
+  "actors": {
+    "Luke Wilson": [
+      {
+        "movie": 1,
+        "role": "Anthony Adams",
+        "is_main": true
+      },
+      {
+        "movie": 2,
+        "role": "Peter Flynn"
+      },
+      {
+        "movie": 3,
+        "role": "Richie Tenenbaum",
+        "is_main": true
+      }
+    ],
+    "Owen Wilson": [
+      { "movie": 1, "role": "Dignan", "is_main": true },
+      { "movie": 2, "role": "Edward Appleby" },
+      { "movie": 3, "role": "Eli Cash", "is_main": true },
+      {
+        "movie": 4,
+        "role": "Edward 'Ned' Plimpton / Kingsley Zissou",
+        "is_main": true
+      },
+      {
+        "movie": 5,
+        "role": "Francis",
+        "is_main": true
+      },
+      {
+        "movie": 6,
+        "role": "Coach Skip"
+      },
+      {
+        "movie": 8,
+        "role": "M. Chuck"
+      },
+      {
+        "movie": 10,
+        "role": "Herbsaint Sazerac"
+      }
+    ],
+    "Andrew Wilson": [
+      { "movie": 1, "role": "Future Man" },
+      { "movie": 2, "role": "Coach Beck" }
+    ],
+    "Robert Musgrave": [[1, "Bob Mapplethorpe"]],
+    "Lumi Cavazos": [{ "movie": 1, "role": "Inez", "is_main": true }],
+    "James Caan": [{ "movie": 1, "role": "Mr. Henry" }],
+    "Kumar Pallana": [
+      { "movie": 1, "role": "Kumar" },
+      { "movie": 2, "role": "Mr. Littlejeans" },
+      { "movie": 3, "role": "Pagoda" },
+      { "movie": 5, "role": "Old Man" }
+    ],
+    "Jason Schwartzman": [
+      { "movie": 2, "role": "Max Fischer", "is_main": true },
+      { "movie": 5, "role": "Jack", "is_main": true },
+      { "movie": 6, "role": "Ash Fox" },
+      { "movie": 7, "role": "Cousin Ben" },
+      { "movie": 8, "role": "M. Jean" },
+      { "movie": 10, "role": "Hermes Jones" },
+      { "movie": 11, "role": "Augie Steenbeck", "is_main": true }
+    ],
+    "Bill Murray": [
+      { "movie": 2, "role": "Herman Blume", "is_main": true },
+      { "movie": 3, "role": "Raleigh St. Clair" },
+      { "movie": 4, "role": "Steve Zissou", "is_main": true },
+      { "movie": 5, "role": "The Businessman" },
+      { "movie": 6, "role": "Clive Badger Esq." },
+      { "movie": 7, "role": "Mr. Bishop", "is_main": true },
+      { "movie": 8, "role": "M. Ivan" },
+      { "movie": 9, "role": "Boss" },
+      { "movie": 10, "role": "Arthur Howitzer Jr." }
+    ],
+    "Olivia Williams": [{ "movie": 2, "role": "Rosemary Cross" }],
+    "Seymour Cassel": [
+      { "movie": 2, "role": "Bert Fischer" },
+      { "movie": 3, "role": "Dusty" },
+      { "movie": 4, "role": "Esteban du Plantier" }
+    ],
+    "Brian Cox": [
+      { "movie": 2, "role": "Nelson Guggenheim" },
+      { "movie": 6, "role": "Daniel Peabody" }
+    ],
+    "Nelson Guggenheim": [{ "movie": 2, "role": "Brian Cox" }],
+    "Gene Hackman": [{ "movie": 3, "role": "Royal Tenenbaum", "is_main": true }],
+    "Anjelica Huston": [
+      { "movie": 3, "role": "Etheline Tenenbaum", "is_main": true },
+      { "movie": 4, "role": "Eleanor Zissou", "is_main": true },
+      { "movie": 5, "role": "Patricia" },
+      { "movie": 9, "role": "Mute Poodle" },
+      { "movie": 10, "role": "Narrator" }
+    ],
+    "Danny Glover": [{ "movie": 3, "role": "Henry Sherman" }],
+    "Ben Stiller": [{ "movie": 3, "role": "Chas Tenebaum", "is_main": true }],
+    "Gwyneth Paltrow": [{ "movie": 3, "role": "Margot Helen Tenenbaum", "is_main": true }],
+    "Cate Blanchett": [{ "movie": 4, "role": "Jane Winslett-Richardson" }],
+    "Willem Dafoe": [
+      { "movie": 4, "role": "Klaus Daimler" },
+      { "movie": 6, "role": "Rat" },
+      { "movie": 8, "role": "J. G. Jopling" },
+      { "movie": 10, "role": "Albert \"the Abacus\"" },
+      { "movie": 11, "role": "Saltzburg Keitel" }
+    ],
+    "Jeff Goldblum": [
+      { "movie": 4, "role": "Alistair Hennessey" },
+      { "movie": 8, "role": "Deputy Vilmos Kovacs" },
+      { "movie": 9, "role": "Duke" },
+      { "movie": 11, "role": "The Alien" }
+    ],
+    "Michael Gambon": [
+      { "movie": 4, "role": "Oseary Drakoulias" },
+      { "movie": 6, "role": "Frank Bean" }
+    ],
+    "Waris Ahluwalia": [
+      { "movie": 4, "role": "Vikram Ray" },
+      { "movie": 5, "role": "The Chief Steward" },
+      { "movie": 8, "role": "M. Dino" }
+    ],
+    "Seu Jorge": [
+      { "movie": 4, "role": "Pelé dos Santos" },
+      { "movie": 11, "role": "Cowboy" }
+    ],
+    "Adrien Brody": [
+      { "movie": 5, "role": "Peter", "is_main": true },
+      { "movie": 6, "role": "Mouse" },
+      { "movie": 8, "role": "Dmitri" },
+      { "movie": 10, "role": "Julien Cadazio" },
+      { "movie": 11, "role": "Schubert Green" }
+    ],
+    "Wallace Wolodarsky": [
+      { "movie": 2, "role": "Referee" },
+      { "movie": 5, "role": "Brendan" },
+      { "movie": 6, "role": "Kylie" },
+      { "movie": 7, "role": "M. Georges" },
+      { "movie": 10, "role": "Cheery Writer" }
+    ],
+    "Natalie Portman": [{ "movie": 5, "role": "Rhett" }],
+    "George Clooney": [{ "movie": 6, "role": "Mr. Fox", "is_main": true }],
+    "Meryl Streep": [{ "movie": 6, "role": "Mrs. Felicity Fox" }],
+    "Eric Chase Anderson": [
+      { "movie": 6, "role": "Kristofferson Silverfox" },
+      { "movie": 7, "role": "Secretary McIntire" }
+    ],
+    "Jarvis Cocker": [
+      { "movie": 6, "role": "Petey" },
+      { "movie": 10, "role": "Tip-Top" },
+      { "movie": 11, "role": "Cowboy" }
+    ],
+    "Wes Anderson": [{ "movie": 6, "role": "Stan Weasel" }],
+    "Helen McCrory": [{ "movie": 6, "role": "Mrs. Bean" }],
+    "Roman Coppola": [
+      { "movie": 6, "role": "Squirrel Contractor" },
+      { "movie": 9, "role": "Igor" }
+    ],
+    "Bruce Willis": [{ "movie": 7, "role": "Captain Sharp", "is_main": true }],
+    "Edward Norton": [
+      { "movie": 7, "role": "Scout Master Randy Ward", "is_main": true },
+      { "movie": 8, "role": "Albert Henckels" },
+      { "movie": 9, "role": "Rex" },
+      { "movie": 10, "role": "The Chauffeur" },
+      { "movie": 11, "role": "Conrad Earp" }
+    ],
+    "Frances McDormand": [
+      { "movie": 7, "role": "Mrs. Bishop", "is_main": true },
+      { "movie": 9, "role": "Interpreter Miranda Nelson" },
+      { "movie": 10, "role": "Lucinda Krementz" }
+    ],
+    "Tilda Swinton": [
+      { "movie": 7, "role": "Social Services" },
+      { "movie": 8, "role": "Madame D." },
+      { "movie": 9, "role": "Oracle" },
+      { "movie": 10, "role": "J.K.L. Berensen" },
+      { "movie": 11, "role": "Dr. Hickenlooper" }
+    ],
+    "Bob Balaban": [
+      { "movie": 7, "role": "Narrator" },
+      { "movie": 8, "role": "M. Martin" },
+      { "movie": 9, "role": "King" },
+      { "movie": 10, "role": "Uncle Nick" },
+      { "movie": 11, "role": "Larkings Executive" }
+    ],
+    "Jared Gilman": [{ "movie": 7, "role": "Sam", "is_main": true }],
+    "Kara Hayward": [
+      { "movie": 7, "role": "Suzy", "is_main": true },
+      { "movie": 9, "role": "Peppermint" }
+    ],
+    "Neal Huff": [
+      { "movie": 7, "role": "Jed" },
+      { "movie": 8, "role": "Lieutenant" }
+    ],
+    "Harvey Keitel": [
+      { "movie": 7, "role": "Commander Pierce" },
+      { "movie": 8, "role": "Ludwig" },
+      { "movie": 9, "role": "Gondo" }
+    ],
+    "Ralph Fiennes": [{ "movie": 8, "role": "Monsieur Gustave H.", "is_main": true }],
+    "Tony Revolori": [
+      { "movie": 8, "role": "Zero Moustafa", "is_main": true },
+      { "movie": 10, "role": "Young Rosenthaler" },
+      { "movie": 11, "role": "Aide-de-Camp" }
+    ],
+    "Saoirse Ronan": [
+      { "movie": 8, "role": "Agatha" },
+      { "movie": 10, "role": "Junkie / Showgirl #1" }
+    ],
+    "Mathieu Amalric": [
+      { "movie": 8, "role": "Serge X" },
+      { "movie": 10, "role": "The Commissaire" }
+    ],
+    "Ken Watanabe": [{ "movie": 9, "role": "Head Surgeon" }],
+    "Lucas Hedges": [
+      { "movie": 7, "role": "Redford" },
+      { "movie": 8, "role": "Pump Attendant" }
+    ],
+    "Jude Law": [{ "movie": 8, "role": "Young Author" }],
+    "Larry Pine": [
+      { "movie": 3, "role": "Peter Bradley" },
+      { "movie": 7, "role": "Mr. Howard Billingsley" },
+      { "movie": 8, "role": "Mr. Mosher" },
+      { "movie": 10, "role": "Chief Magistrate" }
+    ],
+    "Fisher Stevens": [
+      { "movie": 8, "role": "M. Robin" },
+      { "movie": 9, "role": "Scrap" },
+      { "movie": 10, "role": "Story Editor" },
+      { "movie": 10, "role": "Detective #1 / Detective #2" }
+    ],
+    "Léa Seydoux": [
+      { "movie": 8, "role": "Clotilde" },
+      { "movie": 10, "role": "Simone" }
+    ],
+    "Bryan Cranston": [
+      { "movie": 9, "role": "Chief", "is_main": true },
+      { "movie": 11, "role": "Host" }
+    ],
+    "Koyu Rankin": [{ "movie": 9, "role": "Atari Kobayashi", "is_main": true }],
+    "Christoph Waltz": [{ "movie": 10, "role": "Paul Duval" }],
+    "Timothée Chalamet": [{ "movie": 10, "role": "Zeffirelli" }],
+    "Lyna Khoudri": [{ "movie": 10, "role": "Juliette" }],
+    "Jeffrey Wright": [
+      { "movie": 10, "role": "Roebuck Wright" },
+      { "movie": 11, "role": "General Grif Gibson" }
+    ],
+    "Greta Gerwig": [{ "movie": 9, "role": "Tracy Walker" }],
+    "Scarlett Johansson": [
+      { "movie": 9, "role": "Nutmeg" },
+      { "movie": 11, "role": "Midge Campbell" }
+    ],
+    "Liev Schreiber": [
+      { "movie": 9, "role": "Spots", "is_main": true },
+      { "movie": 10, "role": "Talk Show Host" },
+      { "movie": 11, "role": "J.J. Kellogg" }
+    ],
+    "Yoko Ono": [{ "movie": 9, "role": "Assistant Scientist Yoko Ono" }],
+    "Hope Davis": [{ "movie": 11, "role": "Sandy Borden" }],
+    "Benicio del Toro": [{ "movie": 10, "role": "Moses Rosenthaler" }],
+    "Henry Winkler": [{ "movie": 10, "role": "Uncle Joe" }],
+    "Margot Robbie": [{ "movie": 11, "role": "Actress / Wife" }],
+    "Tom Hanks": [{ "movie": 11, "role": "Stanley Zak" }],
+    "Elisabeth Moss": [{ "movie": 10, "role": "Alumna" }],
+    "Steven Carell": [{ "movie": 11, "role": "Motel Manager" }],
+    "Rita Wilson": [{ "movie": 11, "role": "Mrs. Weatherford" }],
+    "Matt Dillon": [{ "movie": 11, "role": "Mechanic" }],
+    "Maya Hawke": [{ "movie": 11, "role": "June Douglas" }],
+    "Stephen Park": [
+      { "movie": 10, "role": "Nescaffier" },
+      { "movie": 11, "role": "Roger Cho" }
+    ],
+    "F. Murray Abraham": [
+      { "movie": 8, "role": "Elder Zero Moustafa" },
+      { "movie": 9, "role": "Jupiter" }
+    ],
+    "Rupert Friend": [
+      { "movie": 10, "role": "Drill-Sergeant" },
+      { "movie": 11, "role": "Montana" }
+    ]
+  }
+}

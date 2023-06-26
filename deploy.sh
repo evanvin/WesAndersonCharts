@@ -13,7 +13,7 @@ git --work-tree dist commit -m "gh-pages"
 
 echo "Pushing to gh-pages..."
 
-git push origin master:gh-pages --force
+git push origin HEAD:gh-pages --force
 
 rm -r dist
 

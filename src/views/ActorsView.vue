@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import ArrowIcon from '../components/icons/IconArrow.vue'
 </script>
 

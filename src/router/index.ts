@@ -4,33 +4,33 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'home',
-    //   component: HomeView
-    // },
-    // {
-    //   path: '/actors',
-    //   name: 'actors',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (Actors.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import('../views/ActorsView.vue')
-    // },
     {
       path: '/',
-      redirect: { name: 'home' }
-    },
-    {
-      path: '/WesAndersonCharts/',
       name: 'home',
       component: HomeView
     },
     {
-      path: '/WesAndersonCharts/actors',
+      path: '/actors',
       name: 'actors',
+      // route level code-splitting
+      // this generates a separate chunk (Actors.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
       component: () => import('../views/ActorsView.vue')
-    }
+    },
+    // {
+    //   path: '/',
+    //   redirect: { name: 'home' }
+    // },
+    // {
+    //   path: '/WesAndersonCharts/',
+    //   name: 'home',
+    //   component: HomeView
+    // },
+    // {
+    //   path: '/WesAndersonCharts/actors',
+    //   name: 'actors',
+    //   component: () => import('../views/ActorsView.vue')
+    // }
   ]
 })
 

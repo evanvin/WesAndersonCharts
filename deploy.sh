@@ -1,13 +1,21 @@
 #!/usr/bin/env sh
 # abort on errors
 set -e
+
+git checkout --orphan gh-pages
+
 # build
 npm run build
-# navigate into the build output directory
-cd dist
 
-git init
-git add -A
-git commit -m 'deploy'
-git push -f git@github.com:evanvin/WesAndersonCharts.git master:gh-pages
-cd -
+
+git --work-tree dist add --all
+git --work-tree dist commit -m "gh-pages"
+
+echo "Pushing to gh-pages..."
+
+git push origin master:gh-pages --force
+
+rm -r dist
+
+git checkout -f master
+git branch -D gh-pages

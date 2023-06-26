@@ -17,20 +17,6 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/ActorsView.vue')
     },
-    // {
-    //   path: '/',
-    //   redirect: { name: 'home' }
-    // },
-    // {
-    //   path: '/WesAndersonCharts/',
-    //   name: 'home',
-    //   component: HomeView
-    // },
-    // {
-    //   path: '/WesAndersonCharts/actors',
-    //   name: 'actors',
-    //   component: () => import('../views/ActorsView.vue')
-    // }
   ]
 })
 

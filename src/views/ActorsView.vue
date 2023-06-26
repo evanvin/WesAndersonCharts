@@ -62,6 +62,7 @@ import ArrowIcon from '../components/icons/IconArrow.vue'
     flex-direction: column;
     align-items: flex-start;
     overflow-x: scroll;
+    --between-pad: 16px;
   }
 
   .rolegraphic::-webkit-scrollbar {
@@ -75,7 +76,7 @@ import ArrowIcon from '../components/icons/IconArrow.vue'
   }
 
   .actor {
-    margin: 8px 16px 16px 16px;
+    margin: 8px var(--between-pad) var(--between-pad) var(--between-pad);
     width: 100px;
     display: flex;
     flex-direction: column;
@@ -89,7 +90,7 @@ import ArrowIcon from '../components/icons/IconArrow.vue'
   }
 
   .roles {
-    margin: 16px 16px 8px 16px;
+    margin: var(--between-pad) var(--between-pad) 8px var(--between-pad);
     width: 100px;
     display: flex;
     flex-direction: column-reverse;
@@ -226,6 +227,7 @@ import ArrowIcon from '../components/icons/IconArrow.vue'
 
   .info > .content > .actor-bold {
     font-family: Futura;
+    color: #78b7c5;
     font-weight: 700;
   }
 }
@@ -236,7 +238,6 @@ import rolesData from '../../data/roles.json'
 import moviesData from '../../data/movies.json'
 
 const colors = [
-  '#74A089',
   '#CB2314',
   '#0B775E',
   '#F8AFA8',
@@ -246,6 +247,7 @@ const colors = [
   '#00A08A',
   '#F98400',
   '#85D4E3',
+  '#74A089',
   '#F4B5BD',
   '#FD6467',
   '#5B1A18',

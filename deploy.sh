@@ -2,6 +2,13 @@
 # abort on errors
 set -e
 
+if [ -z "$(git status --porcelain)" ]; then
+    echo "Beginning to deploy..."
+else
+    echo "\033[1;31mYou have untracked changes\033[0m"
+    exit 1
+fi
+
 git checkout --orphan gh-pages
 
 # build

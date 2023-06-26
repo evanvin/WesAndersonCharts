@@ -1,12 +1,13 @@
 <template>
   <div class="ratingsgraphic">
     <div class="roles" v-for="(movie, i) in movies" :key="movie[0]">
-      {{ movie['vote_average'] }}
+      <!-- {{ movie['vote_average'] }} -->
       <img
         class="avatar"
         :src="'https://image.tmdb.org/t/p/original/' + movie['backdrop_path']"
         alt=""
       />
+      <!-- {{ movie['revenue'].toLocaleString() }} -->
     </div>
   </div>
 </template>
@@ -16,6 +17,13 @@
 
 <style>
 @media (min-width: 1024px) {
+  .ratingsgraphic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
   .avatar {
     padding: 0.25em;
     border-radius: 9999px;

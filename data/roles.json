@@ -47,7 +47,7 @@
       { "movie": 1, "role": "Future Man" },
       { "movie": 2, "role": "Coach Beck" }
     ],
-    "Robert Musgrave": [[1, "Bob Mapplethorpe"]],
+    "Robert Musgrave": [{ "movie": 1, "role": "Bob Mapplethorpe" }],
     "Lumi Cavazos": [{ "movie": 1, "role": "Inez", "is_main": true }],
     "James Caan": [{ "movie": 1, "role": "Mr. Henry" }],
     "Kumar Pallana": [
